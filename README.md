@@ -11,4 +11,4 @@ Test task for the vacancy Java Junior. This project has implemented a flight pro
 - ООД
 ## Content
 - [com.gridnainem.testing](https://github.com/Foneom/JavaJuniorTestProgram/tree/main/src/main/java/com/gridnine/testing) - main project code
-- [com.gridnainem.testing](https://github.com/Foneom/job4j_design/tree/master/src/main/java/ru/job4j/chapter_002) - вторая часть
+- [com.gridnainem.testing](https://github.com/Foneom/JavaJuniorTestProgram/tree/main/src/test/java/com/gridnine/testing) - test
