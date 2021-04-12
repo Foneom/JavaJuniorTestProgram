@@ -1,8 +1,8 @@
 
+# используем язык java. Travis CI поддерживает другие языки тоже.
 language: java
 jdk:
   - openjdk11
-
 
 sudo: false
 
@@ -14,9 +14,9 @@ after_success:
 notifications:
   email:
     recipients:
-      -mugoloca@gmail.com
+      - mugoloka@gmail.com
     on_success: never # default: change
     on_failure: always # default: always
-  env:
-    global:
-      - CODECOV_TOKEN="eb49c245-7b48-4808-bd22-e61a13eff263"
+    env:
+      global:
+        - CODECOV_TOKEN="eb49c245-7b48-4808-bd22-e61a13eff263"
