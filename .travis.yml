@@ -15,3 +15,6 @@ notifications:
       -mugoloca@gmail.com
     on_success: never
     on_failure: always
+env:
+  global:
+    - CODECOV_TOKEN="eb49c245-7b48-4808-bd22-e61a13eff263"
