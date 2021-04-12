@@ -2,8 +2,10 @@
 
 language: java
 
-sudo: false
+jdk:
+  - openjdk11
 
+  sudo: false
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
@@ -15,6 +17,5 @@ notifications:
       - mugoloka@gmail.com
     on_success: never # default: change
     on_failure: always # default: always
-    env:
-      global:
-        - CODECOV_TOKEN="eb49c245-7b48-4808-bd22-e61a13eff263"
+
+
