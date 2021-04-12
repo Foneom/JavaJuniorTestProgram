@@ -121,7 +121,7 @@ public class FlightBuilder {
                 for (int i = 0; i < flight.getSegments().size() - 1; i++) {
 
                     if ((flight.getSegments().get(i + 1).getDepartureDate().getHour() -
-                            flight.getSegments().get(i).getArrivalDate().getHour() < 2)
+                            flight.getSegments().get(i).getArrivalDate().getHour() <= 2)
                     ) {
                         filtered.add(flight);
                     }
