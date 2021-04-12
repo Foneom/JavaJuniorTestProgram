@@ -2,7 +2,7 @@
 
 # JavaJuniorTestProgram
 ## Discription
-Test task for the vacancy Java Junior. This project has implemented a flight processing system:
+Test task for the vacancy Java Junior. This project has implemented a flight processing system.
 ## Air travel filters:
 - Full list if flights
 - Departure to the current point in time
