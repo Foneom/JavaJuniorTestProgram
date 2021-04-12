@@ -9,6 +9,6 @@ Test task for the vacancy Java Junior. This project has implemented a flight pro
 - The arrival date is earlier than the departure date
 - The total time on earth is more than two hours
 - ООД
-## Содержание
-- [chapter_01](https://github.com/Foneom/job4j_design/tree/master/src/main/java/ru/job4j/chapter_001) - первая часть
+## Content
+- [src](https://github.com/Foneom/job4j_design/tree/master/src/main/java/ru/job4j/chapter_001) - первая часть
 - [chapter_02](https://github.com/Foneom/job4j_design/tree/master/src/main/java/ru/job4j/chapter_002) - вторая часть
